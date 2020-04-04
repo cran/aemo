@@ -1,3 +1,9 @@
+# Version 0.3.0
+
+- Using `dplyr::bind_rows()` instead of `dplyr::rbind_all()` (#2)
+- Update URL stub for AEMO data sets (#3)
+- Switch to using GitHub Actions
+
 # Version 0.2.0
 
 - Fix calls to upstream package calls

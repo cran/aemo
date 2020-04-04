@@ -4,23 +4,24 @@
 \name{aemo}
 \alias{aemo}
 \title{AEMO data set May 2009 - May 2014}
-\format{\code{"REGION"} (factor), \code{"SETTLEMENTDATE"} (POSIXct),
+\format{
+\code{"REGION"} (factor), \code{"SETTLEMENTDATE"} (POSIXct),
 \code{"TOTALDEMAND"} (numeric), \code{"RRP"} (numeric) and
-\code{"PERIODTYPE"} (factor).}
+\code{"PERIODTYPE"} (factor).
+}
 \usage{
 aemo
 }
 \description{
 A sample data set containing trading interval price and demand data sourced
 from the AEMO website on or about 21 June 2014. This was downloaded and
-collated using \code{\link{collate_aemo_data}}.
+collated using \code{\link[=collate_aemo_data]{collate_aemo_data()}}.
 }
 \examples{
 data(aemo)
 head(aemo)
 }
 \references{
-\href{http://www.aemo.com.au/Electricity/Data/Price-and-Demand/Aggregated-Price-and-Demand-Data-Files}{AEMO website}
+\href{https://www.aemo.com.au/energy-systems/electricity/national-electricity-market-nem/data-nem/aggregated-data}{AEMO website}
 }
 \keyword{datasets}
-

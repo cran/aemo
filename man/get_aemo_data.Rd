@@ -24,7 +24,7 @@ including Dec 1998 up to the end of the month previous to the current month.}
 the path to which the AEMO files are downloaded.}
 }
 \value{
-data files whose number corresponds to the maximum lenght of one of
+data files whose number corresponds to the maximum length of one of
 the parameters. The file names have the pattern: "[REGION][YYYY][MM].csv".
 }
 \description{
@@ -33,7 +33,7 @@ website. This function downloads these files for each region and period
 requested.
 }
 \details{
-\href{http://www.aemo.com.au/About-AEMO/Legal-Notices/Copyright-Permissions}{AEMO's copyright permissions}
+\href{https://www.aemo.com.au/privacy-and-legal-notices/copyright-permissions}{AEMO's copyright permissions}
 specify that:
 
 "AEMO confirms its general permission for anyone to use AEMO Material
@@ -42,10 +42,9 @@ relevant AEMO Material and AEMO as its author".
 }
 \examples{
 \dontrun{
-get_aemo_data('nsw', 2014, 1)
+get_aemo_data("nsw", 2014, 1)
 }
 }
 \references{
-\href{http://www.aemo.com.au/Electricity/Data/Price-and-Demand/Aggregated-Price-and-Demand-Data-Files}{AEMO website}
+\href{https://www.aemo.com.au/energy-systems/electricity/national-electricity-market-nem/data-nem/aggregated-data}{AEMO website}
 }
-
